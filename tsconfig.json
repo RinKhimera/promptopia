@@ -30,7 +30,8 @@
     ".next/types/**/*.ts",
     "components/Nav.jsx",
     "app/api/auth/[...nextauth]/route.js",
-    "components/PromptCard.jsx"
+    "components/PromptCard.jsx",
+    "app/create-prompt/page.jsx"
   ],
   "exclude": ["node_modules"]
 }
