@@ -3,7 +3,7 @@
 import Form from "@/components/Form"
 import { useSession } from "next-auth/react"
 import { useRouter } from "next/navigation"
-import { FormEvent, useState } from "react"
+import { useState } from "react"
 
 const CreatePrompt = () => {
   const router = useRouter()
@@ -15,7 +15,7 @@ const CreatePrompt = () => {
     tag: "",
   })
 
-  const createPrompt = async (e: FormEvent<HTMLFormElement>) => {
+  const createPrompt = async (e) => {
     e.preventDefault()
     setSubmitting(true)
 
