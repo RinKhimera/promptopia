@@ -29,7 +29,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "components/Nav.jsx",
-    "app/api/auth/[...nextauth]/route.js"
+    "app/api/auth/[...nextauth]/route.js",
+    "components/PromptCard.jsx"
   ],
   "exclude": ["node_modules"]
 }
